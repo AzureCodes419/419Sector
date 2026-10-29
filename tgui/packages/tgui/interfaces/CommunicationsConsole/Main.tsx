@@ -227,26 +227,26 @@ export function PageMain(props) {
           {!!canMessageAssociates && (
             <Button
               icon="bullhorn"
-              color="purple"
+              color="gold"
               disabled={!importantActionReady}
               onClick={() => act('messagethefeds')}
             >
-              Send message to the Exobytech Regional Command
+              Send message to the Nanotrasen Regional Command
             </Button>
           )}
           {!!canMakeAnnouncement && (
             <Button icon="bullhorn" onClick={() => act('callThePolice')}>
-              Call Exobytech 911: Marshals Response
+              Call Nanotrasen 911: Marshals Response
             </Button>
           )}
           {!!canMakeAnnouncement && (
             <Button icon="bullhorn" onClick={() => act('callTheCatmos')}>
-              Call Exobytech 811: Advanced Atmospherics Response
+              Call Nanotrasen 811: Advanced Atmospherics Response
             </Button>
           )}
           {!!canMakeAnnouncement && (
             <Button icon="bullhorn" onClick={() => act('callTheParameds')}>
-              Call Exobytech 911: Medical Response
+              Call Nanotrasen 911: Medical Response
             </Button>
           )}
           {!!emagged && (

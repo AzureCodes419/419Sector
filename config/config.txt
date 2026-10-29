@@ -20,7 +20,7 @@ $include map_vote.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME Exobytech Station 13
+SERVERNAME Nanotrasen Station 13
 
 ## Server tagline: This will appear right below the server's title.
 # SERVERTAGLINE A generic TG-based server
@@ -151,7 +151,7 @@ ALLOW_RESPAWN 1
 RESPAWN_DELAY 600
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Kevin_Glitch
+HOSTEDBY MunkoMonkey
 
 ## Uncomment this to stop people connecting to your server without a registered ckey. (i.e. guest-* are all blocked from connecting).
 ## You probably want this enabled for a production server.
